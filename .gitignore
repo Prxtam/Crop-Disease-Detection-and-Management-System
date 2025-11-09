@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+Backend/.venv/
+Backend/venv/
+Backend/myenv/
+
+# Flask instance and cache
+Backend/instance/
+*.pytest_cache/
+
+# --- Node / Next.js ---
+frontend/node_modules/
+frontend/.next/
+frontend/.expo/
+frontend/.vercel/
+frontend/npm-debug.log*
+frontend/yarn-error.log
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- Env / Secrets ---
+.env
+.env.*.local
+*.env.local
+
+# --- Build / Coverage (optional) ---
+dist/
+build/
+coverage/
+
+# --- Docker (optional) ---
+*.pid
+
+# --- Model artifacts ---
+# Prefer Git LFS for large binaries (see .gitattributes).
+# If your model is > 100MB, GitHub will reject pushes unless using LFS.
+# To ignore models entirely, uncomment the next line:
+# Backend/models/*.pth
